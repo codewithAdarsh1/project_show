@@ -159,7 +159,7 @@ export default function Gallery({ onIndexChange }: GalleryProps) {
       {projects.map((project, index) => (
         <div 
           key={project.id}
-          ref={el => cardsRef.current[index] = el}
+          ref={el => { cardsRef.current[index] = el; }}
           className="absolute w-[85vw] md:w-[70vw] max-w-6xl aspect-video max-h-[65vh] will-change-transform"
           style={{ transformStyle: 'preserve-3d' }}
         >

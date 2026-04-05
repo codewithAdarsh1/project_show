@@ -34,7 +34,7 @@ export default function Footer({ activeIndex, total }: FooterProps) {
     <footer className="fixed bottom-0 w-full z-50 bg-black border-t border-outline-variant/20 px-8 py-4 flex justify-between items-center">
       {/* Timestamp */}
       <div className="w-1/4 flex items-center gap-2">
-        <span className="font-label text-[0.75rem] uppercase tracking-[0.1em] text-outline">{time}</span>
+        <span className="font-label text-[0.75rem] uppercase tracking-widest text-outline">{time}</span>
       </div>
 
       {/* Index Progress */}
@@ -50,8 +50,8 @@ export default function Footer({ activeIndex, total }: FooterProps) {
           ))}
         </div>
         <div className="flex items-center gap-2">
-          <span className="font-label text-[0.75rem] uppercase tracking-[0.1em] text-tertiary-fixed">#</span>
-          <span className="font-label text-[0.75rem] uppercase tracking-[0.1em] text-primary">
+          <span className="font-label text-[0.75rem] uppercase tracking-widest text-tertiary-fixed">#</span>
+          <span className="font-label text-[0.75rem] uppercase tracking-widest text-primary">
             {activeIndex + 1} / {total}
           </span>
         </div>
@@ -64,11 +64,11 @@ export default function Footer({ activeIndex, total }: FooterProps) {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary-fixed opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-tertiary-fixed"></span>
           </span>
-          <span className="font-label text-[0.75rem] uppercase tracking-[0.1em] text-tertiary-fixed">LIVE</span>
+          <span className="font-label text-[0.75rem] uppercase tracking-widest text-tertiary-fixed">LIVE</span>
         </div>
         <div className="flex items-center gap-2 pl-4 border-l border-outline-variant/20">
           <div className="w-2 h-2 bg-primary rounded-full"></div>
-          <span className="font-label text-[0.75rem] uppercase tracking-[0.1em] text-primary">SYNCED</span>
+          <span className="font-label text-[0.75rem] uppercase tracking-widest text-primary">SYNCED</span>
         </div>
       </div>
     </footer>
