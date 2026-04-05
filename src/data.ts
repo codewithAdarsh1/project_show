@@ -14,7 +14,7 @@ export const projects: Project[] = [
     type: 'PACKAGE',
     github: 'https://github.com/codewithAdarsh1/multi-ai-sdk',
     live: 'https://www.npmjs.com/package/multi-ai-sdk',
-    image: '/img/multi-ai-sdk.png'
+    image: 'https://raw.githubusercontent.com/codewithAdarsh1/project_show/refs/heads/main/img/multi-ai-sdk.png'
   },
   {
     id: '02',
@@ -22,7 +22,7 @@ export const projects: Project[] = [
     type: 'E-COMMERCE',
     github: 'https://github.com/codewithAdarsh1/ShopMeta',
     live: 'https://codewithadarsh1.github.io/ShopMeta',
-    image: '/img/ShopMeta.png'
+    image: 'https://raw.githubusercontent.com/codewithAdarsh1/project_show/refs/heads/main/img/ShopMeta.png'
   },
   {
     id: '03',
@@ -30,7 +30,7 @@ export const projects: Project[] = [
     type: 'GAME',
     github: 'https://github.com/codewithAdarsh1/neon_rush_game',
     live: 'https://codewithadarsh1.github.io/neon_rush_game',
-    image: '/img/neon_rush_game.png'
+    image: 'https://raw.githubusercontent.com/codewithAdarsh1/project_show/refs/heads/main/img/neon_rush_game.png'
   },
   {
     id: '04',
@@ -38,7 +38,7 @@ export const projects: Project[] = [
     type: 'WEB APP',
     github: 'https://github.com/codewithAdarsh1/terra-earth',
     live: '#',
-    image: '/img/terra-earth.png'
+    image: 'https://raw.githubusercontent.com/codewithAdarsh1/project_show/refs/heads/main/img/terra-earth.png'
   },
   {
     id: '05',
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     type: 'SHOWCASE',
     github: 'https://github.com/codewithAdarsh1/my-portfilo',
     live: 'https://codewithadarsh1.github.io/my-portfilo',
-    image: '/img/my-portfilo.png'
+    image: 'https://raw.githubusercontent.com/codewithAdarsh1/project_show/refs/heads/main/img/my-portfilo.png'
   },
   {
     id: '06',
@@ -54,7 +54,7 @@ export const projects: Project[] = [
     type: 'APPLICATION',
     github: 'https://github.com/codewithAdarsh1/ReflexCircuit',
     live: 'https://codewithadarsh1.github.io/ReflexCircuit',
-    image: '/img/ReflexCircuit.png'
+    image: 'https://raw.githubusercontent.com/codewithAdarsh1/project_show/refs/heads/main/img/ReflexCircuit.png'
   },
   {
     id: '07',
@@ -62,7 +62,7 @@ export const projects: Project[] = [
     type: 'E-COMMERCE',
     github: 'https://github.com/codewithAdarsh1/dependra-shop',
     live: 'https://codewithadarsh1.github.io/dependra-shop',
-    image: '/img/dependra-shop.png'
+    image: 'https://raw.githubusercontent.com/codewithAdarsh1/project_show/refs/heads/main/img/dependra-shop.png'
   },
   {
     id: '08',
@@ -70,7 +70,7 @@ export const projects: Project[] = [
     type: 'UTILITY',
     github: 'https://github.com/codewithAdarsh1/to-do-list',
     live: 'https://codewithadarsh1.github.io/to-do-list',
-    image: '/img/to-do-list.png'
+    image: 'https://raw.githubusercontent.com/codewithAdarsh1/project_show/refs/heads/main/img/to-do-list.png'
   },
   {
     id: '09',
@@ -78,7 +78,7 @@ export const projects: Project[] = [
     type: 'ALGORITHM',
     github: 'https://github.com/codewithAdarsh1/search-sorting',
     live: 'https://codewithadarsh1.github.io/search-sorting',
-    image: '/img/search-sorting.png'
+    image: 'https://raw.githubusercontent.com/codewithAdarsh1/project_show/refs/heads/main/img/search-sorting.png'
   },
   {
     id: '10',
@@ -86,6 +86,6 @@ export const projects: Project[] = [
     type: 'CONCEPT',
     github: 'https://github.com/codewithAdarsh1/ui-ux',
     live: 'https://codewithadarsh1.github.io/ui-ux',
-    image: '/img/ui-ux.png'
+    image: 'https://raw.githubusercontent.com/codewithAdarsh1/project_show/refs/heads/main/img/ui-ux.png'
   }
 ];
